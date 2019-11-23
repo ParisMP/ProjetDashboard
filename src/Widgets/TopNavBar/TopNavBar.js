@@ -5,6 +5,7 @@ const Topnav = props => (
     <header className="Topbar">
         <br></br>
         <b href="/">MUSIC DASHBOARD</b>
+        <br></br>
         <div className="toolbar_widget_list">
             <ul>
                 <li><a href="/">widget 1</a></li>

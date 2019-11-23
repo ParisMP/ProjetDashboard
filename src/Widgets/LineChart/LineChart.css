@@ -1,13 +1,11 @@
-.LineChart{
-    width: 30%;
-    height: 30%;
-    display: flex;
-}
-
 .divLine{
-    margin-top: 10%;
-    margin-left: 65%;
+    margin-top: -40.5%;
+    margin-left: 36%;
     border-color: deepskyblue;
     margin-bottom: 0%;
-    display: flex;
+}
+
+.graph{
+    margin-top: 8%;
+    margin-left: -2%;
 }
