@@ -1,0 +1,13 @@
+.LineChart{
+    width: 30%;
+    height: 30%;
+    display: flex;
+}
+
+.divLine{
+    margin-top: 10%;
+    margin-left: 65%;
+    border-color: deepskyblue;
+    margin-bottom: 0%;
+    display: flex;
+}

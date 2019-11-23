@@ -1,5 +1,4 @@
 import React from "react";
-import { render } from "react-dom";
 import Popup from "reactjs-popup";
 import Hello from "./Hello";
 import BurgerIcon from "./BurgerIcon";
@@ -19,7 +18,6 @@ const contentStyle = {
 
 const Nav = () => (
     <div style={styles}>
-        <Hello name="Create cool burger menu using reactjs-popup" />
         <Popup
             modal
             overlayStyle={{ background: "rgba(255,255,255,0.98" }}

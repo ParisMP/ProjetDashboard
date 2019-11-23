@@ -1,0 +1,46 @@
+.Topbar b{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    margin-top: -10%;
+    padding-left: 1%;
+
+}
+
+.Topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    background: deepskyblue;
+    height: 8%;
+    overflow: hidden;
+
+}
+
+.toolbar_widget_list a{
+    color: white;
+    text-decoration: none;
+}
+
+.toolbar_widget_list a:hover,
+.toolbar_widget_list a:active{
+    color: deeppink;
+}
+
+.toolbar_widget_list ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.toolbar_widget_list li{
+    padding-right: 10%;
+}
+
+.toolbar_widget_list{
+    margin-top: -1.75%;
+    margin-left: 20%;
+}
+

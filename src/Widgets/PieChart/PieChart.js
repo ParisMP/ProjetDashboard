@@ -28,20 +28,21 @@ const renderCustomizedLabel = ({
 };
 
 class Widget2 extends PureComponent {
-    static jsfiddleUrl = 'https://jsfiddle.net/alidingling/c9pL8k61/';
 
     render() {
         return (
-            <PieChart width={400} height={400}>
+            <PieChart width={400} height={400} position = "flex">
                 <Pie
                     data={data}
                     cx={200}
-                    cy={200}
+                    cy={300}
                     labelLine={false}
                     label={renderCustomizedLabel}
                     outerRadius={80}
                     fill="#8884d8"
                     dataKey="value"
+                    top="60px"
+                    right="20px"
                 >
                     {
                         data.map((entry, index) => <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />)

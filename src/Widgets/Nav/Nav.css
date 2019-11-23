@@ -4,7 +4,7 @@
     cursor: pointer;
     position: fixed;
     right: 20px;
-    bottom: 40px;
+    top: 4px;
     z-index: 9999;
     background: #fff;
     padding: 10px;
@@ -58,4 +58,9 @@
 }
 .menu li:hover {
     color: #ff0000;
+}
+
+.hey{
+    background-color: red;
+    display: flex;
 }

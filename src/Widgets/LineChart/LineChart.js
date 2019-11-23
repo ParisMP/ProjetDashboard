@@ -1,7 +1,8 @@
 import React, { PureComponent } from 'react';
 import {
-    LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
+    LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Pie,
 } from 'recharts';
+import './LineChart.css';
 
 const data = [
     {
@@ -28,17 +29,14 @@ const data = [
 ];
 
 export default class Example extends PureComponent {
-    static jsfiddleUrl = 'https://jsfiddle.net/alidingling/xqjtetw0/';
 
     render() {
         return (
+            <div className="divLine">
             <LineChart
-                width={500}
-                height={300}
+                width={300}
+                height={100}
                 data={data}
-                margin={{
-                    top: 5, right: 30, left: 20, bottom: 5,
-                }}
             >
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />
@@ -48,6 +46,7 @@ export default class Example extends PureComponent {
                 <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{ r: 8 }} />
                 <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
             </LineChart>
+            </div>
         );
     }
 }
