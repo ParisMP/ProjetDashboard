@@ -5,7 +5,7 @@ import {
 } from 'recharts';
 import { scaleOrdinal } from 'd3-scale';
 import { schemeCategory10 } from 'd3-scale-chromatic';
-import './ShapeBarChart.css';
+import './ShapeBarChartW.css';
 
 const colors = scaleOrdinal(schemeCategory10).range();
 
@@ -48,32 +48,32 @@ TriangleBar.propTypes = {
     height: PropTypes.number,
 };
 
-export default class ShapeBChart extends PureComponent {
+export default class ShapeBChartW extends PureComponent {
 
     render() {
         return (
-            <div className="divShape">
-                <b>Vues par continent pour les hommes</b>
-                <div className="graphShape">
-            <BarChart
-                width={400}
-                height={200}
-                data={data}
-                margin={{
-                    top: 20, right: 30, left: 20, bottom: 5,
-                }}
-            >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Bar dataKey="male" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>
-                    {
-                        data.map((entry, index) => (
-                            <Cell key={`cell-${index}`} fill={colors[index % 20]} />
-                        ))
-                    }
-                </Bar>
-            </BarChart>
+            <div className="divShapeW">
+                <b>Vues par continent pour les femmes</b>
+                <div className="graphShapeW">
+                    <BarChart
+                        width={400}
+                        height={200}
+                        data={data}
+                        margin={{
+                            top: 20, right: 30, left: 20, bottom: 5,
+                        }}
+                    >
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="name" />
+                        <YAxis />
+                        <Bar dataKey="female" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>
+                            {
+                                data.map((entry, index) => (
+                                    <Cell key={`cell-${index}`} fill={colors[index % 20]} />
+                                ))
+                            }
+                        </Bar>
+                    </BarChart>
                 </div>
             </div>
         );

@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import './App.css';
 import Example from './Widgets/LineChart/LineChart';
@@ -7,6 +6,8 @@ import Topnav  from './Widgets/TopNavBar/TopNavBar';
 import Nav from './Widgets/Nav/Nav';
 import RadialBChart from './Widgets/RadialBarChart/RadialBarChart';
 import ShapeBChart from './Widgets/ShapeBarChart/ShapeBarChart';
+import ShapeBChartW from './Widgets/ShapeBarChartW/ShapeBarChartW';
+import Pro from './Widgets/Profiles/Profiles';
 
 class App extends Component {
 
@@ -27,6 +28,8 @@ class App extends Component {
             <Example/>
             <Widget2/>
             <ShapeBChart/>
+            <ShapeBChartW/>
+            <Pro/>
             </div>
                 </div></div></aside>
 
