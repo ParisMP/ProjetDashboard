@@ -6,6 +6,7 @@ import Widget2 from './Widgets/PieChart/PieChart';
 import Topnav  from './Widgets/TopNavBar/TopNavBar';
 import Nav from './Widgets/Nav/Nav';
 import RadialBChart from './Widgets/RadialBarChart/RadialBarChart';
+import ShapeBChart from './Widgets/ShapeBarChart/ShapeBarChart';
 
 class App extends Component {
 
@@ -25,6 +26,7 @@ class App extends Component {
             <RadialBChart/>
             <Example/>
             <Widget2/>
+            <ShapeBChart/>
             </div>
                 </div></div></aside>
 

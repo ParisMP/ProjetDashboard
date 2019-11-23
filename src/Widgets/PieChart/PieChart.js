@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react';
 import {
     PieChart, Pie, Sector, Cell,
 } from 'recharts';
+import './PieChart.css';
 
 const data = [
     { name: 'Group A', value: 400 },
@@ -31,11 +32,12 @@ class Widget2 extends PureComponent {
 
     render() {
         return (
+            <div className="divPie">
+                <b>Titre les plus populaires</b>
+                <div className="graphPie">
             <PieChart width={400} height={400} position = "flex">
                 <Pie
                     data={data}
-                    cx={200}
-                    cy={300}
                     labelLine={false}
                     label={renderCustomizedLabel}
                     outerRadius={80}
@@ -49,6 +51,8 @@ class Widget2 extends PureComponent {
                     }
                 </Pie>
             </PieChart>
+                </div>
+            </div>
         );
     }
 }
