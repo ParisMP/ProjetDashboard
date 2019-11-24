@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fac984c1-6769-4e83-92e6-d0dc0ed302c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Widgets/Profiles/Profiles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Widgets/Profiles/Profiles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Widgets/ShapeBarChartW/ShapeBarChartW.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Widgets/ShapeBarChartW/ShapeBarChartW.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Widgets/ShapeBarChart/ShapeBarChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Widgets/ShapeBarChart/ShapeBarChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,9 +171,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="222" />
-    <option name="y" value="751" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="82" />
+    <option name="y" value="256" />
     <option name="width" value="1280" />
     <option name="height" value="413" />
   </component>
@@ -305,12 +297,12 @@
       <workItem from="1574350518715" duration="4000" />
       <workItem from="1574350930812" duration="390000" />
       <workItem from="1574352222635" duration="35000" />
-      <workItem from="1574352295337" duration="20686000" />
+      <workItem from="1574352295337" duration="21033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25245000" />
+    <option name="totallyTimeSpent" value="25592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -322,7 +314,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="222" y="333" width="1280" height="413" extended-state="0" />
+    <frame x="82" y="256" width="1280" height="413" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26979" />
