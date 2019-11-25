@@ -19,19 +19,23 @@ class App extends Component {
     //instead we pass a reference, we pass the address to that method
     return (
             <aside>
-            <div className="row">
-                <div className="col-8 col-sm-8 col-md-9 col-lg-9 col-xl-10">
-                    <div className="divh">
-            <Topnav/>
-            <Nav/>
-            <RadialBChart/>
+        
+            <row>
+              <div className="col-sm-8 col-md-9 col-lg-9 col-xl-10"><Topnav/></div>
+              <div className="col-sm-4 col-md-3 col-lg-3 col-xl-2"><Nav/></div>
+            </row>
+            <row>   <body>
+              <RadialBChart/>
             <Example/>
             <Widget2/>
             <ShapeBChart/>
             <ShapeBChartW/>
             <Pro/>
-            </div>
-                </div></div></aside>
+            </body>
+            </row>
+         
+          
+            </aside>
 
     );
   }
