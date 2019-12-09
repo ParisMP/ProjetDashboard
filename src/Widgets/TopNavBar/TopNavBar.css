@@ -2,8 +2,7 @@
     color: black;
     text-decoration: none;
     font-size: large;
-    margin-top: -10%;
-    padding-left: 1%;
+
 
 }
 
@@ -13,8 +12,10 @@
     left: 0;
     width:100%;
     background: deepskyblue;
-    height: 11%;
+    height: 8%;
     overflow: hidden;
+    z-index: 999;
+    text-overflow: ellipsis;
 }
 
 
@@ -27,9 +28,4 @@
 .toolbar_widget_list a:hover,
 .toolbar_widget_list a:active{
     color: deeppink;
-}
-
-
-.test {
-    border-style: solid;
 }

@@ -8,7 +8,8 @@ import "./Nav.css";
 const styles = {
     fontFamily: "sans-serif",
     textAlign: "center",
-    marginTop: "40px"
+    marginTop: "40px",
+    marginRight: "60px"
 };
 const contentStyle = {
     background: "rgba(255,255,255,0",
