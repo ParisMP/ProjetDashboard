@@ -8,6 +8,8 @@ import RadialBChart from './Widgets/RadialBarChart/RadialBarChart';
 import ShapeBChart from './Widgets/ShapeBarChart/ShapeBarChart';
 import ShapeBChartW from './Widgets/ShapeBarChartW/ShapeBarChartW';
 import Pro from './Widgets/Profiles/Profiles';
+import {BrowserRouter, Route, Switch, Link} from 'react-router-dom';
+import Admin from './Admin/Admin';
 
 class App extends Component {
 
@@ -18,6 +20,10 @@ class App extends Component {
     // don't put () next to clickDropDown or the method would be automatically executed
     //instead we pass a reference, we pass the address to that method
     return (
+
+      <BrowserRouter>
+
+        <Route path="/Admin" component={Admin}/>
             <aside>
         
             <row>
@@ -36,7 +42,7 @@ class App extends Component {
          
           
             </aside>
-
+  </BrowserRouter>
     );
   }
 }
