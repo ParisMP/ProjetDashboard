@@ -1,4 +1,7 @@
 import React from 'react';
+import './Formulaire.css';
+import { Container, Row, Col } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 class Formulaire extends React.Component {
     constructor(props) {
@@ -18,33 +21,44 @@ class Formulaire extends React.Component {
   
     render() {
       return (
-        <form>
+        <Form>
 
-          <h3>Nouveau Utilisateur</h3>
+          <h3>Nouvel utilisateur</h3>
 
-          <label>
-            <h5>Localisation: </h5>
-            <input type="text" localisation={this.state.localisation} onChange={this.handleChange} />
-          </label>
+          <FormGroup row>
+            <Label for="exampleEmail" sm={{ size: 3, offset: 2 }}>Localisation de la maison : </Label>
+            <Col sm={4}>
+              <Input type="text" name="localisation" localisation={this.state.localisation} onChange={this.handleChange} id="exampleEmail" placeholder="37 quai de grenelle 75015 Paris" />
+            </Col>
+          </FormGroup>
+  
+          <FormGroup row>
+            <Label for="examplePassword" sm={{ size: 3, offset: 2 }}>Nombre personne dans la maison : </Label>
+            <Col sm={4}>
+              <Input type="number" nb={this.state.nb} onChange={this.handleChange} name="nb" id="nb"/>
+            </Col>
+          </FormGroup>
 
-          <label>
-            <h5>Nombre de personnes dans la maison: </h5>
-            <input type="number" nb={this.state.nb} onChange={this.handleChange} />
-          </label>
+          <FormGroup row>
+            <Label for="Taille" sm={{ size: 3, offset: 2 }}>Taille de la maison : </Label>
+            <Col sm={4}>
+              <Input type="select" taille={this.state.taille} onChange={this.handleChange} name="select" id="exampleSelect">
+              <option taille="small">Small</option>
+              <option taille="medium">Medium</option>
+              <option taille="big">Big</option>
+              </Input>
+            </Col>
+          </FormGroup>
 
-          <label>
-            <h5>Taille de la maison: </h5>
-            <select taille={this.state.taille} onChange={this.handleChange}>
-            <option taille="small">Small</option>
-            <option taille="medium">Medium</option>
-            <option taille="big">Big</option>
-          </select>
-
-          </label>
+          <FormGroup row>
+            <Col sm={{ size: 10, offset:5 }}>
+              <Button type="submit" localisation ="submit" nb="submit" taille="Submit">Valider</Button>
+            </Col>
+          </FormGroup>
           
-          <input type="submit" localisation ="submit" nb="submit" taille="Submit" />
           
-        </form>
+          
+        </Form>
       );
     }
   }
