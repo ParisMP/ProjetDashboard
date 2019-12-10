@@ -1,23 +1,21 @@
-.Topbar b{
+.NavbarBrand {
     color: black;
     text-decoration: none;
     font-size: large;
-
-
+    text-emphasis: bold;
 }
 
-.Topbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width:100%;
-    background: deepskyblue;
-    height: 8%;
-    overflow: hidden;
-    z-index: 999;
-    text-overflow: ellipsis;
+.header {
+    background-color: deepskyblue;
 }
 
+.menuW {
+    color: black;
+}
+
+.menuL {
+    text-decoration: none;
+}
 
 .toolbar_widget_list a{
     color: white;

@@ -1,0 +1,26 @@
+h3 {
+    padding-top: 7%;
+    padding-bottom: 12%;
+    margin-bottom: 5%;
+}
+
+.utilisateur {
+    text-decoration: none;
+    border-style: solid;
+    padding: 4%;
+    font-weight: bold;
+    font-size: large;
+    color: blueviolet;
+
+
+}
+
+.formulaire {
+    text-decoration: none;
+    border-style: solid;
+    padding: 4%;
+    font-weight: bold;
+    font-size: large;
+    color: blueviolet;
+
+}
