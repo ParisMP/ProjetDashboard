@@ -13,13 +13,18 @@ class Widgets extends React.Component{
     render(){
       return( 
       <div>
-            <RadialBChart/>
-            <Example/>
-            <Widget2/>
-            <ShapeBChart/>
-            <ShapeBChartW/>
-            <Pro/>
-    
+            
+            <Row>
+              <Col sm={12} md={6} lg={4} xl={4}><RadialBChart/></Col>
+              <Col><Example/></Col>
+              <Col><Widget2/></Col>
+            </Row>
+            <Row>
+              <Col><ShapeBChart/></Col>
+              <Col><ShapeBChartW/></Col>
+              <Col><Pro/></Col>
+            </Row>
+          
       </div>
       );
     }
