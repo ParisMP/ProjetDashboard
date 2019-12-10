@@ -26,13 +26,16 @@ const Topnav = props => {
     return (
         <div>
           <Navbar className="header" light expand="md">
-            <Col sm={4} md={4} lg={4} xl={4}><NavbarBrand href="/">MY DASHBOARD</NavbarBrand></Col>
+            <Col sm={1} md={3} lg={2} xl={2}><NavbarBrand href="/">MY DASHBOARD</NavbarBrand></Col>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
               <Nav className="mr-auto" navbar>
-                <NavItem className="menuW">
-                <Link to="/Widgets">Widgets</Link>
-                </NavItem>
+                <Col>
+                    <NavItem className="menuW">
+                    <NavLink href="/Widgets/">Widgets</NavLink>
+                    </NavItem>
+                </Col>
+                <Col>
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav caret>
                     Admin
@@ -46,6 +49,7 @@ const Topnav = props => {
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
+                </Col>
               </Nav>
             </Collapse>
           </Navbar>

@@ -23,7 +23,7 @@ class Formulaire extends React.Component {
       return (
         <Form>
 
-          <h3>Nouvel utilisateur</h3>
+          <h3>Ajouter un utilisateur</h3>
 
           <FormGroup row>
             <Label for="exampleEmail" sm={{ size: 3, offset: 2 }}>Localisation de la maison : </Label>

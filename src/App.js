@@ -19,7 +19,7 @@ class App extends Component {
       <BrowserRouter>
 
         <Topnav/>
-        <Nav/>
+        
 
         <Route path="/Admin" component={Admin}/>
         <Route path="/Widgets" component={Widgets}/>
