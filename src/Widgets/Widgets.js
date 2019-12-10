@@ -6,11 +6,7 @@ import ShapeBChart from './ShapeBarChart/ShapeBarChart';
 import ShapeBChartW from './ShapeBarChartW/ShapeBarChartW';
 import Pro from './Profiles/Profiles';
 import {BrowserRouter, Route, Switch, Link} from 'react-router-dom';
-<<<<<<< HEAD
 import { Container, Row, Col } from 'reactstrap';
-=======
-
->>>>>>> 30c34ed547273f69970a7f04cbc09794bd991b60
 
 class Widgets extends React.Component{ 
   
