@@ -16,13 +16,13 @@ class Widgets extends React.Component{
             
             <Row>
               <Col sm={12} md={6} lg={4} xl={4}><RadialBChart/></Col>
-              <Col><Example/></Col>
-              <Col><Widget2/></Col>
+              <Col sm={12} md={6} lg={4} xl={4}><Example/></Col>
+              <Col sm={12} md={6} lg={4} xl={4}><Widget2/></Col>
             </Row>
             <Row>
-              <Col><ShapeBChart/></Col>
-              <Col><ShapeBChartW/></Col>
-              <Col><Pro/></Col>
+              <Col sm={12} md={6} lg={4} xl={4}><ShapeBChart/></Col>
+              <Col sm={12} md={6} lg={4} xl={4}><ShapeBChartW/></Col>
+              <Col sm={12} md={6} lg={4} xl={4}><Pro/></Col>
             </Row>
           
       </div>
