@@ -1,0 +1,10 @@
+.Row{
+    
+    border-style: solid;
+}
+
+.widget1{
+    border-style: solid;
+    justify-content: center;
+    text-align: center;
+}
