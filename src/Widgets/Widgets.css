@@ -1,0 +1,55 @@
+
+.widget1{
+    justify-content: center;
+    text-align: center;
+}
+
+.widget1 .rbc b {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+.widget2{
+    justify-content: center;
+    text-align: center;
+}
+
+.widget2 .divLine b {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.widget2 .divLine .graph {
+    margin-top: 22%;
+}
+
+.widget3 {
+    justify-content: center;
+    text-align: center;
+}
+
+.widget3 .divPie b {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.widget3 .divLine .graphPie {
+    margin-top: 20%;
+}
+
+.widget4 {
+    justify-content: center;
+    text-align: center;
+}
+
+.small{
+    color: blue;
+}
+
+.medium{
+    color: orange;
+}
+.large{
+    color: green;
+}

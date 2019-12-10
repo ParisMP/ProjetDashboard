@@ -1,0 +1,17 @@
+.divh{
+  height: 100%;
+}
+
+.title{
+  color: black;
+  width: 30%;
+  margin-top: 5%;
+  border-width: thick;
+  border-color: deepskyblue;
+  display: flex;
+}
+
+.ln{
+  border-width: thick;
+  border-color: deepskyblue;
+}
