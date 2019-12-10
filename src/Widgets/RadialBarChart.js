@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { RadialBarChart, RadialBar, Legend } from 'recharts';
-import './RadialBarChart.css'
+import '../Widgets.css';
 
 const data = [
     {
@@ -28,8 +28,8 @@ const data = [
 
 const style = {
     top: 100,
-    left: 300,
-    lineHeight: '20px',
+    left: 300
+    
 };
 
 

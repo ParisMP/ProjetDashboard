@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import {
     PieChart, Pie, Sector, Cell,
 } from 'recharts';
-import './PieChart.css';
+import '../Widgets.css';
 
 const data = [
     { name: 'Group A', value: 400 },
@@ -35,7 +35,7 @@ class Widget2 extends PureComponent {
             <div className="divPie">
                 <b>Titre les plus populaires</b>
                 <div className="graphPie">
-            <PieChart width={400} height={400} position = "flex">
+            <PieChart width={400} height={400}>
                 <Pie
                     data={data}
                     labelLine={false}
@@ -43,8 +43,6 @@ class Widget2 extends PureComponent {
                     outerRadius={80}
                     fill="#8884d8"
                     dataKey="value"
-                    top="60px"
-                    right="20px"
                 >
                     {
                         data.map((entry, index) => <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />)

@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import {
     LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Pie, RadialBarChart,
 } from 'recharts';
-import './LineChart.css';
+import '../Widgets.css';
 
 const data = [
     {
